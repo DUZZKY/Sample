@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR STARTS */
+
+nav, .link{
+    display: flex;
+    
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.link{
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: gray;
+    transition: .5s;
+}
+
+#navbar{
+    gap: 40%;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-underline-offset: 1rem;
+    color: gray;
+}
+
+.logo
+{
+    font-size: 2rem;
+    font-weight: 2rem;
+    cursor:default;
+}
+
+/* NAVBAR ENDS */
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0.5rem 10rem;
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    gap: 10rem;
+}
+
+.pic{
+    border-radius: 50%;
+    margin: auto 0;
+    display: flex;
+    box-shadow: 10px 20px 2rem rgb(0, 0, 0);
+}
+
+.text{
+    text-align: center;
+    align-self: center;
+    cursor: default;
+}
+
+.text-b{
+    font-size: 3.5rem;
+}
+
+.text-a{
+    font-weight: 500;
+}
+
+.text-c{
+    font-weight: bold;
+}
+.text p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.icon{
+    height: 2rem;
+}
+
+.social-media{
+    margin: 10px;
+    gap: 20%;
+}
+
+.btn-a{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 40px;
+    color: gray;
+    background-color: white;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.btn-a:hover{
+    color: white;
+    background-color: gray;
+}
+
+.btn-b{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.btn-b:hover{
+    color: white;
+    background-color: gray;
+}
+
+/* HEADER SECTION ENDS */
+
+.content-a, .content-b{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid gray;
+    transition: .5s;
+}
+
+.content-a:hover{
+    box-shadow: 0 0 2rem black;
+    border: 2px solid black;
+}
+
+.content-b:hover{
+    box-shadow: 0 0 2rem black;
+    border: 2px solid black;
+}
+
+.about-content{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* ABOUT SECTION ENDS */
+
+.project-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;  
+}
+
+.image{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.project{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    width: 280px;
+    margin-right: 90px;
+    transition: .5s;
+}
+
+.project:hover{
+    box-shadow: 0 0 2rem black;
+}
+
+#project{
+    margin: 0 90px;
+}
+
+/* PROJECT SECTION ENDS */
+
+.contact-footer{
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+    margin: 50px;
+    margin-bottom: 190px;
+}
+
+.icon-a{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+}
+
+.contact-footer p:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    color: gray;
+    cursor: pointer;
+}
+
+
+#contact{
+    margin-bottom: 0px;
+}
+/* CONTACT SECTION ENDS */
